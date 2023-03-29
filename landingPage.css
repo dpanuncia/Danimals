@@ -3,6 +3,11 @@
   font-size: 25px; 
 }
 
+body{
+  background-image: url(bb.jpg);
+  background-size: cover;
+  
+}
 
 
 #t2 {
@@ -34,7 +39,7 @@
     width: 200px;
     height: 150px;
   }
-  
+  /*Button 1 */
   .btn-holder {
     display: flex;
     flex-wrap: wrap;
@@ -51,11 +56,13 @@
     cursor: pointer;
     margin: 0px 25px 15px;
     min-width: 150px;
+    top: 350px;
+    left: 55px;
   }
     .btn span {         
       position: relative;
       display: inline-block;
-      font-size: 14px;
+      font-size: 10px;
       font-weight: bold;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -64,6 +71,73 @@
       padding: 15px 20px;
       transition: 0.3s;
     }
+
+    /*Button 2 */
+    .bt-holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 10px auto 35px;
+    }
+    .bt {
+      position: relative;
+      display: inline-block;
+      width: auto; height: auto;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      margin: 0px 25px 15px;
+      min-width: 150px;
+      top: 530px;
+      left: 55px;
+    }
+      .bt span {         
+        position: relative;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        top: 0; left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        transition: 0.3s;
+      }
+    /*Button 3 */
+    .b-holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 10px auto 35px;
+    }
+    .b {
+      position: relative;
+      display: inline-block;
+      width: auto; height: auto;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      margin: 0px 25px 15px;
+      min-width: 150px;
+      top: 650px;
+      left: 55px;
+    }
+      .b span {         
+        position: relative;
+        display: inline-block;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        top: 0; left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        transition: 0.3s;
+      }
+
+
 
 div.slide-left {
   width:100%;
